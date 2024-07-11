@@ -64,6 +64,6 @@ class WarehouseController extends Controller
         $warehouse->delete();
 
         return to_route('warehouses.index')
-            ->with('message', 'Warehouse Deleted Successfully');;
+            ->with('message', 'Warehouse Deleted Successfully');
     }
 }
